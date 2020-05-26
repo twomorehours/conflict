@@ -11,6 +11,8 @@ import show.tmh.conflict.mid.UseCase;
 public class Top {
 
     public static void main(String[] args) {
-        UseCase.m();
+        String md5 = MD5.md5("Yuhao941024_").toLowerCase();
+        System.out.println(md5);
+        //908b44cb7890ae4d4da381cfe8f1abf3
     }
 }
